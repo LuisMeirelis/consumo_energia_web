@@ -1,0 +1,80 @@
+/* Define a fonte padrão e configurações de cores */
+body {
+    font-family: 'PT Sans', sans-serif; /* Alterado para PT Sans */
+    margin: 0;
+    padding: 0;
+    background-color: #e9f0f5;
+    color: #333;
+}
+
+/* Container principal */
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* Estilo da lista de dispositivos */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo de cada item (cartão) */
+ul li {
+    background-color: #ffffff;
+    border: 1px solid #dfe6e9;
+    color: #2c3e50;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+/* Texto do item */
+ul li p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Efeito hover nos itens da lista */
+ul li:hover {
+    transform: scale(1.02);
+    background-color: #f0f4f8;
+}
+
+/* Estilo das labels (Dispositivo, Consumo, Data) */
+ul li span {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+/* Estilo do botão (caso precise) */
+button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1c6f9b;
+}
